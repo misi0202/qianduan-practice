@@ -1,0 +1,10 @@
+.father {
+  color: red;
+  width: 1.81333333rem;
+}
+.father .son {
+  background-color: pink;
+}
+.father .son .grandson {
+  width: 1.86666667rem;
+}

@@ -1,0 +1,276 @@
+ /* 用来美化首页 */
+/* wrapper负责版心效果 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+
+.wrapper{
+    width: 1200px;
+    margin:0 auto;
+}
+body{
+    background-color: #f3f5f7;
+}
+/* 头部 */
+.header{
+    height: 42px;
+    /* background-color: pink; */
+    margin: 30px auto;
+}
+h1{
+    float:left;}
+.nav{
+    margin-left: 70px;
+    float:left;
+    height: 42px;
+    /* background-color: green; */
+}
+.nav li{
+    float:left;
+    margin-right: 26px;
+}
+.nav li a{
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    padding: 0 9px;
+    color: #050505;
+    font-size: 18px;
+}
+.nav li a:hover{
+   border-bottom: 2px solid #00a4ff;
+}
+.search{
+    float: left;
+    margin-left: 59px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+.search input{
+    float: left;
+    padding-left: 20px;
+    width: 360px;
+    height: 38px;
+    border:none;
+}
+.search input::placeholder{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.search button{
+    float: left;
+    border: none;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/btn.png);
+}
+.user{
+    float: left;
+    margin-left: 31px;
+    height: 42px;
+    line-height: 42px;
+}
+.user img{
+    vertical-align: middle;
+}
+/* 轮播图*/
+.banner{
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner .wrapper{
+    height: 420px;
+    background-image: url(../images/banner2.png);
+}
+.banner .left{
+    float: left;
+    padding: 0px 20px;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.3);
+    line-height: 44px;
+    font-size: 14px;
+}
+.banner .left a{
+    color: #fff;
+}
+.banner .left a:hover{
+    color:#00b4ff ;
+}
+.banner .left span{
+   float: right;
+}
+.banner .right{
+    margin-top: 50px;
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+}
+.banner h2{
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #9bceea;
+}
+.banner .right .content{
+    padding: 0 18px;
+}
+.banner dl{
+    padding: 12px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+.banner dt{
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.banner dd{
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.banner .more{
+    display: block;
+    margin: 4px auto;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    color: #00a4ff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+.goods{
+    line-height: 60px;
+    padding: 0 30px;
+    margin-top: 8px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0px 
+}
+.goods h2{
+    float: left;
+    font-size: 16px;
+    color: #00a4ff;
+    margin-right:30px ;
+}
+.goods ul{
+    margin-left: 30px;
+    float: left;
+}
+.goods .hobby{
+    font-size: 14px;
+    color: #00a4ff;
+    float: right;
+}
+.goods li{
+    float: left;
+}
+.goods li a{
+    font-size: 16px;
+    color: #050505;
+    padding: 0 30px;
+    border-left: 1px solid #bfbfbf;
+}
+.box{
+   margin-top: 35px; 
+}
+.box .title{
+    height: 40px;
+    /* background-color: pink; */
+}
+.box h2{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+.box .title a{
+    margin-right: 30px;
+    color: #a5a5a5;
+    float: right;
+    font-size: 12px;
+}
+.box .content li{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+width: 228px;
+height: 270px;
+background-color: #fff;
+    /* background-color: pink; */
+}
+.box .content li:nth-child(5n){
+    margin-right: 0;
+}
+.box .content li h3 {
+    padding: 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.box .content li p {
+    padding: 0 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.box .content li span {
+    color: #ff7c2d;
+}
+.footer{
+    padding-top: 30px;
+    margin: 40px;
+    height: 417px;
+    background-color: #fff;
+}
+.footer .left{
+   float: left;
+}
+.footer .right{
+  float: right;
+}
+.footer  .left p{
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+.footer .left a{
+    display: block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 36px;
+    color: #00a4ff;
+}
+.footer .right dl {
+    float: left;
+    margin-left: 120px;
+}
+.box .hot{
+    position: absolute;
+    right: -4px;
+    top: 4px;
+
+}
